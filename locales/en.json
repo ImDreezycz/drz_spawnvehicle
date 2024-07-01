@@ -5,5 +5,6 @@
     "full_tuning": "Full Tuning",
     "notify_title": "Spawn Vehicle",
     "notify_desc1": "Vehicle with code ",
-    "notify_desc2": " does not exist!"
+    "notify_desc2": " does not exist!",
+    "notify_unauthorized": "You are not authorized to do this!"
 }
