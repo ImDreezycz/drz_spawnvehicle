@@ -1,0 +1,9 @@
+{
+    "spawn_code": "Spawn Code",
+    "registration_number": "Registration Number",
+    "vehicle_color": "Vehicle Color",
+    "full_tuning": "Full Tuning",
+    "notify_title": "Spawn Vehicle",
+    "notify_desc1": "Vehicle with code ",
+    "notify_desc2": " does not exist!"
+}
