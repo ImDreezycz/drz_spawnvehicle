@@ -9,3 +9,4 @@ DRZ.FullTuning = false -- True/False
 DRZ.DefaultColor = '#000000'
 
 DRZ.Group = 'admin' -- Group that is authorized to spawn vehicle
+DRZ.FrameWork = 'qb' -- esx/qb

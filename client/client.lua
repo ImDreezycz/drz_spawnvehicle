@@ -1,9 +1,16 @@
 lib.locale()
-ESX = exports.es_extended:getSharedObject()
 
-RegisterCommand(DRZ.Command, function()
-    TriggerServerEvent('drz_spawnvehicle:checkAdminPermission')
-end, false)
+if DRZ.FrameWork == "esx" then
+    ESX = exports.es_extended:getSharedObject()
+elseif DRZ.FrameWork =="qb" then
+    QBCore = exports['qb-core']:GetCoreObject()
+end
+
+if DRZ.FrameWork == 'esx' then
+    RegisterCommand(DRZ.Command, function()
+        TriggerServerEvent('drz_spawnvehicle:checkAdminPermission')
+    end, false)
+end
 
 RegisterNetEvent('drz_spawnvehicle:spawnVehicle')
 AddEventHandler('drz_spawnvehicle:spawnVehicle', function()
